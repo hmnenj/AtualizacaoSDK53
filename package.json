@@ -47,6 +47,17 @@
     "jest-expo": "~53.0.7",
     "typescript": "~5.8.3"
   },
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "exclude": [
+          "react-native-responsive-screen",
+          "firebase"
+        ],
+        "listUnknownPackages": false
+      }
+    }
+  },
   "overrides": {
     "react-refresh": "~0.14.0"
   },
